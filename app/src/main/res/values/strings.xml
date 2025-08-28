@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app letra y musica</string>
+
+    <string name="Item_Inicio">Inicio</string>
+    <string name="Item_Buscar">Buscar</string>
+    <string name="Item_Perfil">Perfil</string>
+</resources>
