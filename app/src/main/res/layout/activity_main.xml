@@ -7,21 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/TopNV"
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/yellow_app">
+        android:layout_height="57dp"
+        android:background="@color/yellow_app"
+        app:contentInsetStart="0dp">
 
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="LETRAS"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:layout_gravity="center" />
+            android:src="@drawable/logo_lyriks"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside" />
 
-    </com.google.android.material.navigation.NavigationView>
+    </com.google.android.material.appbar.MaterialToolbar>
+
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
