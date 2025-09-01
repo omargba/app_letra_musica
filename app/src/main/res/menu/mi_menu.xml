@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/Item_Inicio"
         android:title="@string/Item_Inicio"
-        android:icon="@drawable/ic_inicio"/>
+        android:icon="@drawable/ic_inicio"
+        />
+
+
     <item android:id="@+id/Item_Buscar"
         android:title="@string/Item_Buscar"
-        android:icon="@drawable/ic_buscar"/>
+        android:icon="@drawable/ic_buscar1"
+
+        />
     <item android:id="@+id/Item_Perfil"
         android:title="@string/Item_Perfil"
         android:icon="@drawable/ic_cuenta"/>
 
-
 </menu>
+
