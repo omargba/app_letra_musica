@@ -11,7 +11,7 @@
         android:title="@string/Item_Perfil"
         android:icon="@drawable/ic_cuenta"/>
     <item android:id="@+id/Item_Mi_musica"
-        android:title="Mi música"
+        android:title="@string/mi_m_sica"
         android:icon="@drawable/ic_mi_musica"/>
 
 </menu>
