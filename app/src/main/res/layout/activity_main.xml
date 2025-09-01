@@ -10,7 +10,7 @@
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topAppBar"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="57dp"
         android:background="@color/yellow_app"
         app:contentInsetStart="0dp">
 
