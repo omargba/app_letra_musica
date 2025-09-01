@@ -25,21 +25,25 @@
     </com.google.android.material.appbar.MaterialToolbar>
 
 
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/BottomNV"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         app:menu="@menu/mi_menu"
         app:labelVisibilityMode="labeled"
+        android:background="@color/white"
         />
 
     <View
         android:id="@+id/View1"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"
-        android:layout_above="@+id/BottomNV"/>
+        android:background="@color/white"
+        android:layout_above="@+id/BottomNV"
+        android:textAlignment="center"/>
+
 
 
 
