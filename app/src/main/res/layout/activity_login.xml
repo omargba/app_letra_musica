@@ -51,10 +51,13 @@
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             app:backgroundTint="#DB4437"
+            app:icon="@drawable/ic_googlepro"
+            app:iconTint="@null"
             app:layout_constraintTop_toBottomOf="@id/tvTitle"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="40dp" />
+
 
         <!-- Label Email -->
         <TextView
