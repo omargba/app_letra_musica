@@ -5,4 +5,5 @@
     <string name="Item_Buscar">Buscar</string>
     <string name="Item_Perfil">Perfil</string>
     <string name="mi_m_sica">Mi música</string>
+    <string name="title_activity_login">activity_login</string>
 </resources>
